@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>MAHINDRA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+  #logo {
+    width: 230px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 33rem;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  #navbar-brand {
+    text-align: center;
+    color: red;
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .carousel-image {
+    height: 500px;
+    /* Set a fixed height */
+    object-fit: cover;
+    /* Ensures image covers the container while maintaining aspect ratio */
+  }
+
+  #home {
+    margin-top: 80px;
+  }
+
+  #cards {
+    margin-top: 66px;
+  }
+  P{
+      color:red;
+      font-weight: 1000;
+    }
+</style>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg  bg-dark fixed-top h-5 ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="navbar-brand">PRIME MOTORS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              BRANDS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="toyoto.html">Toyota</a></li>
+              <li><a class="dropdown-item " href="mahindra.html">mahindra</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item " href="volksswagen.html">volkswagen</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-white" aria-disabled="true">CONATCT US</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success text-white" id="btnse" type="submit">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <div class="container2" id="home">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/mhomepage1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/mhomepage2.jpg" class="d-block w-100 " alt="...">
+        </div>
+
+
+        <div class="carousel-item ">
+          <img src="img/mhomepage3.jpg" class="d-block  w-100 h-5 " alt="...">
+        </div>
+      </div>
+    </div>
+    <div id="cards"></div>
+    <div class="container3">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/m1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">thar roxx</h5>
+              <p class="card-text"> 16lakhs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/m2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">xuv 300</h5>
+              <p class="card-text">19 lakh</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/m3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">scorpio N</h5>
+              <p class="card-text"> 12 lakhs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/m4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">xuv 700</h5>
+              <p class="card-text"> 25 lakhs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/m5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">thar</h5>
+              <p class="card-text"> 15 lakhs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/m6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">scorpio</h5>
+              <p class="card-text"> 12 lakhs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/m7.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">bolero neo</h5>
+              <p class="card-text">10 lakhs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/m8.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">bolero neo</h5>
+              <p class="card-text"> 10 lakhs </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-body-secondary">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <h4>PRIME MOTORS</h4>
+      <p class="text-body-secondary">© 2024</p>
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
