@@ -8,16 +8,22 @@
   <title>PRIME MOTORS</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+  <link rel="shortcut icon" href="/img/primemotorslogo.png" type="image/x-icon">
 </head>
 
 <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
   .carousel-image {
     height: 500px;
     /* Set a fixed height */
     object-fit: cover;
     /* Ensures image covers the container while maintaining aspect ratio */
   }
-
+ 
   #Vehicle {
 text-align: center;
 padding: 60px 60px 60px 80px;
@@ -33,7 +39,7 @@ color: navy;
 
   #navbar-brand {
     text-align: center;
-    color: red;
+    color: #2596be;
     font-size: 36px;
     font-weight: 500;
 
@@ -50,13 +56,72 @@ color: navy;
 
   }
   #btnse{
-    border: none;
+
+    /* border: none; */
+    border: 2px solid #2596be;
+
+  }
+  h4,
+  h4 {
+    font-size: calc(1.27rem + .3vw);
+    margin-left: 73px;
+  }
+
+
+  p.text-body-secondary {
+    margin-left: 68px;
   }
   #btnse:hover{
-    background: red;
+    background: #2596be;
     color: black !important;
     border: none !important;
   }
+  button.navbar-toggler {
+    border: 2px solid wheat;
+}
+button.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.aboutus h1{
+  text-align: center;
+   color: darkblue;
+   font-weight: 900;
+}
+.aboutus, h4{
+  font-weight: 700;
+  text-align: left;
+}
+.aboutus{
+  background-color: wheat;
+  background-image: url(https://img.freepik.com/free-photo/blurred-parking_1203-402.jpg?t=st=1731148593~exp=1731152193~hmac=b1db180915d932354318be8e657b15951ca9634c18e53ab62f8249ea5295901d&w=360);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: darkred;
+}
+#img{
+  justify-content: center;
+  align-items: center;
+  margin-left:  32.5rem;
+}
+a.nav-link.text-white {
+    font-weight: 700;
+}
+ul.dropdown-menu.show {
+    background-color: #060606;
+    font-weight: 600;
+}
+a.dropdown-item {
+    color: white;
+    font-weight: 800;
+}
+/* img.img-thumbnail {
+    width: 54px;
+    padding: 0px;
+    border: none;
+} */
+
 
 </style>
 <body>
@@ -65,7 +130,9 @@ color: navy;
 
   <nav class="navbar navbar-expand-lg  bg-dark fixed-top h-5 ">
     <div class="container-fluid">
+      <!-- <img src="img/primemotorslogo-removebg-preview.png" class="img-thumbnail" alt="..."> -->
       <a class="navbar-brand" href="#" id="navbar-brand">PRIME MOTORS</a>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -73,16 +140,16 @@ color: navy;
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+            <a class="nav-link active text-white " aria-current="page" href="index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">ABOUT</a>
+            <a class="nav-link text-white" href="aboutus.html">ABOUT</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-white  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               BRANDS
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu" >
               <li><a class="dropdown-item" href="toyoto.html">Toyota</a></li>
               <li><a class="dropdown-item " href="mahindra.html">mahindra</a></li>
               <li>
@@ -92,11 +159,11 @@ color: navy;
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled text-white" aria-disabled="true">CONTACT US</a>
+            <a class="nav-link text-white" aria-disabled="true" href="contactus.html">CONTACT US</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control me-2"  type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success text-white" id="btnse" type="submit">Search</button>
         </form>
         
@@ -229,63 +296,106 @@ color: navy;
       </div>
     </div>
 
+    <div class="aboutus" id="aboutt">
+      <h1>
+        About Us
+      </h1>
+      <!-- <img src="img/pimrlogo.png" class="rounded mx-auto d-block" alt="..."> -->
+      <h4 id="scrollspyHeading1">1. Our Mission</h4>
+      <p>Describe your mission to deliver high-quality car and motor products or services. Emphasize dedication to innovation, safety, and customer satisfaction, focusing on enhancing the automotive experience.</p>
+      <h4 id="scrollspyHeading2">2. Our Expertise</h4>
+      <p>Highlight the team’s expertise in the automotive industry. Detail years of experience, specialized knowledge, and certifications, showing why customers can trust your brand for any car or motor-related needs</p>
+      <h4 id="scrollspyHeading3">3. Commitment to Quality</h4>
+      <p>.Share your commitment to sourcing or manufacturing the best parts and vehicles, emphasizing quality control, rigorous testing, and partnerships with reputable brands in the industry</p>
+      <h4 id="scrollspyHeading4">4. Customer-Centric Approach</h4>
+      <p>.Explain your approach to putting customers first. Mention your customer support, personalized services, and dedication to meeting each client’s unique automotive needs.</p>
+      <h4 id="scrollspyHeading5">5. Innovation and Sustainability
+      </h4>
+  
+      <p>.Talk about your brand’s role in driving automotive innovation, like electric or hybrid vehicles, and how you’re embracing sustainability for a better future in the automotive sector.</p>
+      <!-- <h1>PRIME MOTORS</h1> -->
+          
+      <!-- <P>Welcome to [PRIME MOTORS], where passion meets precision in the world of car motors. Our journey began with a simple yet ambitious goal: to redefine automotive performance through unparalleled expertise and commitment to quality. As enthusiasts and experts in the automotive industry, we specialize in providing top-tier car motors and parts that deliver superior performance, reliability, and efficiency. Our dedicated team, with years of combined experience, works tirelessly to ensure each motor we produce or supply meets the highest standards in the industry.
+
+        We understand that a car’s motor is its heart and soul, so we leave no stone unturned in sourcing, testing, and developing motors that our customers can trust. Every motor we handle undergoes rigorous testing to guarantee optimal performance, longevity, and safety. From high-performance engines for thrill-seekers to fuel-efficient motors for eco-conscious drivers, our range is designed to cater to diverse needs, preferences, and lifestyles. Our mission is to provide motors that not only power vehicles but also empower drivers, enhancing their overall driving experience.
+        
+        At [Your Company Name], quality is our hallmark. We partner with the best in the industry to source premium components and use cutting-edge technology to ensure that each motor meets and exceeds industry standards. Our commitment to excellence is matched by our dedication to innovation. We are constantly exploring new technologies, such as electric and hybrid motors, to meet the demands of a changing automotive landscape and contribute to a more sustainable future.
+        
+        Our customers are at the core of everything we do. We believe in building relationships based on trust, transparency, and outstanding service. Our team is always ready to provide expert guidance, answer questions, and support our customers at every step—from selecting the right motor to maintenance and beyond. We aim to make each interaction with our brand a seamless and rewarding experience, ensuring that our clients drive away with both confidence and satisfaction.
+        
+        Looking to the future, [Your Company Name] is excited to continue leading in the field of automotive motors. As we grow and evolve, we remain steadfast in our commitment to delivering products that not only meet but exceed expectations. Whether you’re a seasoned automotive professional or a first-time buyer, we invite you to explore our world of high-quality motors and experience the difference that passion, expertise, and dedication can make.
+        
+        </P> -->
+    </div>
+  </div>
 
 
 
 
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-body-secondary">
+
+
+
+
+
+
+
+
+
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5   border-top bg-dark">
       <div class="col mb-3">
         <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
           <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
           </svg>
         </a>
-        <h4>PRIME MOTORS</h4>
-        <p class="text-body-secondary">© 2024</p>
+        <h4 class="text-white">PRIME MOTORS</h4>
+        <p class="text-white">© 2024</p>
       </div>
 
       <div class="col mb-3">
 
+        <h5>Section</h5>
       </div>
+
+      
 
       <div class="col mb-3">
         <h5>Section</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
         </ul>
       </div>
 
       <div class="col mb-3">
         <h5>Section</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
         </ul>
       </div>
-
-      <div class="col mb-3">
+      <div class="col ">
         <h5>Section</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
         </ul>
       </div>
     </footer>
-</body>
+
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
   integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
   integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
-</html>
+</body>
+</html>   
