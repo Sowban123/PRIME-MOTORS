@@ -20,3 +20,5 @@ Built with modern web technologies to showcase services, vehicle listings, and c
 - Font Awesome for icons
 
 
+![Screenshot 2025-07-01 133916](https://github.com/user-attachments/assets/62728907-24ca-4680-8ed6-7a9935eae8d6)
+![Screenshot 2025-07-01 133955](https://github.com/user-attachments/assets/12ff2e01-22dd-4d2c-b0b6-155789a4a111)
